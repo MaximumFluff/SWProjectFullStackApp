@@ -151,19 +151,19 @@ const NewIdeaForm = props => {
             label="categoryId role"
           >
             <MenuItem
-              value="101"
+              value="182"
               primaryText="Nioh is an awesome game to play"
             />
             <MenuItem
-              value="102"
+              value="192"
               primaryText="Pencil is a great tool for writing"
             />
             <MenuItem
-              value="103"
+              value="202"
               primaryText="Potatoes are a very nice vegetable to eat"
             />
             <MenuItem
-              value="104"
+              value="212"
               primaryText="Tomatoes are red versions of potatoes"
             />
           </Field>

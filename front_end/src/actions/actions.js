@@ -7,7 +7,7 @@ export const IDEA_DELETE = "idea_delete";
 export const COMMENT_DELETE = "comment_delete";
 export const COMMENT_CREATE = "idea_create";
 
-const ROOT_URL = "http://localhost:8000/api";
+const ROOT_URL = "https://idea-database.herokuapp.com/api";
 
 function receiveData(request, json) {
   return { type: request, payload: json };

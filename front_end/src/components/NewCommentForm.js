@@ -67,7 +67,7 @@ const NewIdeaForm = props => {
           />
         </div>
         <div>
-          <Field name="commentTimeStamp" component={renderDatePicker} />
+          <Field name="commentTimeStamp" type="date" component={renderDatePicker} />
         </div>
         <div>
           <Field
